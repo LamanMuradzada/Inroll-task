@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.form-container {
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 2.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content {
+    color: #0052CB;
+    font-weight: bold;
+  }
+  
+  p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input {
+    width: 80%;
+    padding: .7rem;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 2.5rem;
+    font-size: 14px;
+  }
+  input:focus {
+     outline: none;
+  }
+  
+  button {
+    padding: .7rem 1.5rem;
+    margin-bottom: 1rem;
+    background-color: #0052CB;
+    color: white;
+    border: none;
+    border-radius: 2.5rem;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .submit-text {
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 375px) {
+    .form-container {
+      max-width: 500px;
+      padding: 20px;
+      box-shadow: none;
+    }
+    input {
+      width: 70%;
+    }
+
+    button {
+      padding: .5rem 1.3rem;
+    }
+  }

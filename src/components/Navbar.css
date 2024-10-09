@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.logo img {
+  max-width: 80%;
+}
+
+.register-btn {
+  background-color: #0052cb;
+  color: #fff;
+  font-size: 1.3rem;
+  border: none;
+  padding: 0.9rem 1.8rem;
+  margin-top: 0.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    .nav{
+        padding: 1.3rem;
+    }
+    .logo img {
+        max-width: 70%;
+    }
+  .register-btn {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+}
